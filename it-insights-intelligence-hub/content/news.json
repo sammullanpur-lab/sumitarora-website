@@ -1,4 +1,245 @@
 {
-  "updated_at": null,
-  "items": []
+  "updated_at": "2026-11-05T04:44:39.975896+00:00",
+  "items": [
+    {
+      "title": "Deprecation notice: Low-trust SharePoint add-ins in SharePoint Server Subscription Edition",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/deprecation-notice-low-trust-sharepoint-add-ins-in-sharepoint-server-subscription-edition/",
+      "summary": "Support for low-trust SharePoint Add-ins in SharePoint Server Subscription Edition ends on January 12, 2027. The January 2027 public update will disable these add-ins by default. Organizations should identify affected solutions and plan their migration to supp",
+      "published": "2026-11-04T16:52:01+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Your voice shapes SPFx: take our developer survey",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/your-voice-shapes-spfx-take-our-developer-survey/",
+      "summary": "Help shape the future of SPFx. Share your developer experience in our survey, open until December 9, 2026, and help guide future investments. Explore highlights from a year of updates, including Copilot UX components, and discover what’s next on the roadmap an",
+      "published": "2026-11-04T10:10:37+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Your app needs documents. Do you really want to build a document platform?",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/your-app-needs-documents-do-you-really-want-to-build-a-document-platform/",
+      "summary": "File storage is rarely just file storage. Imagine your team is building a contract management application. At first, the document requirement looks straightforward: upload a file, organize it, retrieve it, and let the right people open it. Then the real requir",
+      "published": "2026-11-03T16:00:58+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+      "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeare",
+      "published": "2026-10-29T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+      "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-28T17:40:56+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Streamline creation and management of AI-ready, custom apps with SharePoint Embedded",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/streamline-creation-and-management-of-ai-ready-custom-apps-with-sharepoint-embedded/",
+      "summary": "SharePoint content isn’t limited to sites and document libraries. Increasingly, organizations are bringing Microsoft 365 content capabilities directly into the custom apps their users rely on. That’s where SharePoint Embedded comes in. SharePoint Embedded is a",
+      "published": "2026-10-28T13:09:27+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Copilot UX components are generally available: bring interactive experiences into Copilot",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-are-generally-available-bring-interactive-experiences-into-copilot/",
+      "summary": "Copilot UX components are generally available with SPFx 1.24. Bring interactive dashboards, forms, and business actions directly into Microsoft Copilot, so people can complete tasks in context using experiences built on existing web skills and systems. The pos",
+      "published": "2026-10-28T10:55:44+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+      "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+      "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-26T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Develop enterprise-grade apps with SharePoint Embedded",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/develop-enterprise-grade-apps-with-sharepoint-embedded/",
+      "summary": "Taking an enterprise application from development to production requires confidence that it can scale, stay reliable, and be governed effectively. Recent SharePoint Embedded updates give developers clearer guidance for making those decisions, from understandin",
+      "published": "2026-10-22T12:30:44+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Advancing digital sovereignty with greater control and choice",
+      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require. The pos",
+      "published": "2026-10-20T17:34:47+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Work IQ: the new retrieve tool",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-retrieve-october-2026/",
+      "summary": "The new Work IQ Retrieve tool grounds agents in the context of work, helping them reason over the right information and deliver more relevant, trustworthy responses. With one retrieval layer across work sources, developers can give agents richer organizational",
+      "published": "2026-10-20T07:00:57+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+      "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Micr",
+      "published": "2026-10-19T19:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-16T16:05:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Evolving the cloud-native foundation for the next generation of AI",
+      "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+      "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale. The post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog .",
+      "published": "2026-10-15T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
+      "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blo",
+      "published": "2026-10-14T19:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Advancing hardware security with open-source Integrated HSM technology",
+      "url": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
+      "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection. The post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azu",
+      "published": "2026-10-13T16:15:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
+      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+      "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact. The post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared",
+      "published": "2026-10-13T16:15:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Build AI-powered apps without creating a vector database",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/build-ai-powered-apps-without-creating-a-vector-database/",
+      "summary": "Developers building AI applications face a familiar challenge: how do you ground AI experiences in enterprise content while maintaining security, compliance, and governance? You can use the Microsoft 365 Copilot Retrieval API for SharePoint Embedded, which hel",
+      "published": "2026-10-13T13:00:52+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Pre-authenticated (tempauth) URLs are retiring: move to Microsoft Entra ID tokens before April 1, 2027",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/pre-authenticated-tempauth-urls-are-retiring-move-to-microsoft-entra-id-tokens-before-april-1-2027/",
+      "summary": "Starting April 1, 2027, affected Microsoft Graph file APIs will no longer return pre-authenticated URLs. Applications using these APIs must authenticate requests with Microsoft Entra ID access tokens. The post Pre-authenticated (tempauth) URLs are retiring: mo",
+      "published": "2026-10-08T13:10:46+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "SharePoint Framework (SPFx) roadmap update – September 2026",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-september-2026/",
+      "summary": "New Copilot UX components heading to Generally Available in October 2026, SPFx 1.24 Beta 5 is now available, React 18 support is coming in 1.24. Updates coming in Node.js support. The post SharePoint Framework (SPFx) roadmap update – September 2026 appeared fi",
+      "published": "2026-09-30T21:35:52+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "General Availability: Refresh Token (RT) Transfer to Apple Watch in Microsoft Entra External ID Native Authentication",
+      "url": "https://devblogs.microsoft.com/identity/native-auth-refresh-token-transfer-ga/",
+      "summary": "We’re excited to announce the General Availability (GA) of Single Sign-On (SSO) from Native Apps to Embedded Web Views for Microsoft Entra External ID (EEID) Native Authentication. This release marks a major milestone in delivering end-to-end seamless authenti",
+      "published": "2026-04-29T15:13:11+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "General Availability: Single Sign-On (SSO) from Native Apps to Embedded Web Views in Microsoft Entra External ID Native Authentication",
+      "url": "https://devblogs.microsoft.com/identity/native-auth-sso-ga/",
+      "summary": "We’re excited to announce the General Availability (GA) of Single Sign-On (SSO) from Native Apps to Embedded Web Views for Microsoft Entra External ID (EEID) Native Authentication. This release marks a major milestone in delivering end-to-end seamless authenti",
+      "published": "2026-04-23T16:51:24+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "General Availability: Social Identity Providers for Native Authentication via Browser‑Delegated Flows (web-view) in Microsoft Entra External ID",
+      "url": "https://devblogs.microsoft.com/identity/native-auth-social-idps-web-view-ga/",
+      "summary": "We’re excited to announce the General Availability of Social Identity Provider (IdP) support for Native Authentication in Microsoft Entra External ID. This release enables developers to integrate popular social sign‑in options such as Google, Facebook, and App",
+      "published": "2026-04-01T19:37:15+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Designing for Eventual Consistency for Microsoft Entra",
+      "url": "https://devblogs.microsoft.com/identity/designing-for-eventual-consistency-for-microsoft-entra/",
+      "summary": "Microsoft Entra is a globally distributed service that provides identity and access management to millions of customers world-wide. To scale reliably and remain resilient during failures, Microsoft Entra uses an eventually consistent directory model. Key takea",
+      "published": "2026-03-25T02:30:05+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "General Availability: Email and SMS OTP as Second‑Factor MFA for Native Authentication in Entra External ID",
+      "url": "https://devblogs.microsoft.com/identity/native-auth-mfa-ga/",
+      "summary": "Today we’re announcing the general availability of Email and SMS one‑time passcode (OTP) as second‑factor MFA for Native Authentication in Microsoft Entra External ID. This enables developers to add step‑up security to native sign‑in and sign‑up flows while ke",
+      "published": "2026-03-09T14:42:45+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Announcing GA of Bicep templates support for Microsoft Entra ID resources",
+      "url": "https://devblogs.microsoft.com/identity/bicep-templates-for-microsoft-entra-id-resources-is-ga/",
+      "summary": "We’re thrilled to announce that Bicep templates for Microsoft Entra ID resources is generally available from July 29th, 2025. Bicep templates bring declarative infrastructure as code (IaC) capabilities to Microsoft Graph resources. This new capability will ini",
+      "published": "2025-08-11T16:08:26+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "General Availability of Native Authentication JavaScript SDK",
+      "url": "https://devblogs.microsoft.com/identity/native-auth-javascript-sdk-ga/",
+      "summary": "Today we announce that Native Authentication JavaScript SDK for Microsoft Entra External ID is now Generally Available! Initially released in 2024, Native Authentication empowers developers to build sign-in, sign-up and sign-out experiences for single page app",
+      "published": "2025-08-05T16:45:38+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Now Generally Available: Apple identity provider support for Microsoft Entra External ID",
+      "url": "https://devblogs.microsoft.com/identity/now-generally-available-apple-identity-provider-support-for-microsoft-entra-external-id/",
+      "summary": "I'm excited to announce that \"Sign in with Apple\" is now generally available for external tenants in Entra External ID. The feature has been in public preview since February, and many customers have already integrated Apple as an identity provider for their ap",
+      "published": "2025-05-13T10:26:32+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "May 2025: A look at the latest Microsoft Entra key feature releases, announcements, and updates",
+      "url": "https://devblogs.microsoft.com/identity/eng-connect-feb-25-2/",
+      "summary": "Welcome to the May edition of our monthly newsletter, summarizing the latest news and developments in the exciting, ever-evolving world of Microsoft Entra. The post May 2025: A look at the latest Microsoft Entra key feature releases, announcements, and updates",
+      "published": "2025-05-09T15:05:08+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Announcing the General Availability of Managed Identities as Federated Identity Credentials in your Entra apps",
+      "url": "https://devblogs.microsoft.com/identity/access-cloud-resources-across-tenants-without-secrets-ga/",
+      "summary": "Announcing the GA of Managed Identities as Federated Identity Credentials for Microsoft Entra. Enhance security by replacing app secrets with managed identities, simplify setup, and enable seamless cross-tenant access to Entra-protected resources like Azure an",
+      "published": "2025-05-08T13:23:06+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    }
+  ]
 }
