@@ -29,3 +29,52 @@
 @media(max-width:900px) { .header a.brand .brandmark { width:58px;height:58px;min-width:58px;flex-basis:58px;font-size:29px; } }
 @media(max-width:600px) { .header a.brand {gap:10px;} .header a.brand .brandmark {width:52px;height:52px;min-width:52px;flex-basis:52px;font-size:26px;border-radius:11px;} .header a.brand > span:last-child {font-size:12px;letter-spacing:.03em;} .header a.brand > span:last-child small {font-size:7px;letter-spacing:.015em;white-space:normal;max-width:175px;} }
 @media(prefers-reduced-motion:reduce) { .header a.brand .brandmark {transition:none;} }
+
+/* Continuous cyan light travelling around the SA border. */
+@property --sa-light-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.header a.brand .brandmark {
+  border-color: rgba(105, 190, 225, .22);
+  overflow: hidden;
+}
+.header a.brand .brandmark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(from var(--sa-light-angle),
+    transparent 0deg, transparent 225deg,
+    rgba(70, 183, 234, .22) 255deg,
+    #74eaff 294deg, #ffffff 305deg,
+    #40c9ff 319deg, transparent 352deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: sa-border-orbit 3s linear infinite;
+  opacity: 1;
+}
+.header a.brand .brandmark::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 11px rgba(52, 191, 247, .09);
+  pointer-events: none;
+}
+@keyframes sa-border-orbit {
+  to { --sa-light-angle: 360deg; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header a.brand .brandmark::before { animation: none; }
+}
