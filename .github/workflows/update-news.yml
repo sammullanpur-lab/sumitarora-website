@@ -31,6 +31,24 @@ jobs:
         working-directory: it-insights-intelligence-hub
         run: python scripts/update_news.py
 
+      - name: Diagnose generated news
+        shell: bash
+        run: |
+          echo "Checking generated news files..."
+
+          find . -name news.json -type f -print
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for path in Path(".").rglob("news.json"):
+              data = json.loads(path.read_text(encoding="utf-8"))
+              print(f"File: {path}")
+              print(f"Updated: {data.get('updated_at')}")
+              print(f"Articles: {len(data.get('items', []))}")
+          PY
+
       - name: Verify news was generated
         working-directory: it-insights-intelligence-hub
         run: |
