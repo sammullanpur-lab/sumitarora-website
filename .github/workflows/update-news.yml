@@ -23,8 +23,8 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Update technology headlines
-        run: python scripts/update_news.py
+- name: Update technology headlines
+  run: python it-insights-intelligence-hub/scripts/update_news.py
 
       - name: Commit updated news
         run: |
