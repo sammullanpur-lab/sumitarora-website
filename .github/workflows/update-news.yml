@@ -27,13 +27,15 @@ jobs:
   run: python it-insights-intelligence-hub/scripts/update_news.py
 
       - name: Commit updated news
-        run: |
-          if [ -n "$(git status --porcelain -- content/news.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add content/news.json
-            git commit -m "Automated technology news update"
-            git push
-          else
-            echo "No news changes to commit."
-          fi
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    git add it-insights-intelligence-hub/content/news.json
+
+    if ! git diff --cached --quiet; then
+      git commit -m "Automated technology news update"
+      git push
+    else
+      echo "No news changes to commit."
+    fi
