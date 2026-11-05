@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: technology-news-update
+  cancel-in-progress: false
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
@@ -16,53 +20,57 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
-      - name: Verify website files
-        run: |
-          ls -la it-insights-intelligence-hub/scripts/
-          ls -la it-insights-intelligence-hub/content/
-
       - name: Update technology headlines
         working-directory: it-insights-intelligence-hub
         run: python scripts/update_news.py
 
-     
-      - name: Commit updated news
+      - name: Commit and push news
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add it-insights-intelligence-hub/content/news.json
+          NEWS_FILE="it-insights-intelligence-hub/content/news.json"
+
+          git add "$NEWS_FILE"
 
           if git diff --cached --quiet; then
-            echo "No news changes to commit."
+            echo "No news changes to publish."
             exit 0
           fi
 
           git commit -m "Automated technology news update"
 
           for attempt in 1 2 3; do
+            echo "Push attempt $attempt"
+
             git fetch origin main
 
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then
-                echo "News successfully published to GitHub."
-                exit 0
-              fi
-            else
+            if ! git rebase origin/main; then
               git rebase --abort
-              echo "Rebase conflict detected. Stopping safely."
+              echo "Rebase conflict. Stopping safely."
               exit 1
             fi
 
-            echo "Push conflict. Retrying..."
+            if git push origin HEAD:main; then
+              echo "SUCCESS: Technology news published."
+              exit 0
+            fi
+
+            echo "Remote changed again. Retrying..."
             sleep 5
           done
 
-          echo "Unable to publish news after 3 attempts."
+          echo "ERROR: Could not publish after 3 attempts."
           exit 1
