@@ -31,6 +31,7 @@ jobs:
         working-directory: it-insights-intelligence-hub
         run: python scripts/update_news.py
 
+     
       - name: Commit updated news
         run: |
           git config user.name "github-actions[bot]"
@@ -38,9 +39,30 @@ jobs:
 
           git add it-insights-intelligence-hub/content/news.json
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Automated technology news update"
-            git push
-          else
+          if git diff --cached --quiet; then
             echo "No news changes to commit."
+            exit 0
           fi
+
+          git commit -m "Automated technology news update"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "News successfully published to GitHub."
+                exit 0
+              fi
+            else
+              git rebase --abort
+              echo "Rebase conflict detected. Stopping safely."
+              exit 1
+            fi
+
+            echo "Push conflict. Retrying..."
+            sleep 5
+          done
+
+          echo "Unable to publish news after 3 attempts."
+          exit 1
