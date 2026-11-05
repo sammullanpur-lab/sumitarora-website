@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T04:02:04.060456+00:00",
+  "updated_at": "2026-11-05T04:10:26.104773+00:00",
   "items": [
     {
       "title": "Deprecation notice: Low-trust SharePoint add-ins in SharePoint Server Subscription Edition",
@@ -8,6 +8,14 @@
       "published": "2026-11-04T16:52:01+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
+      "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
+      "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The p",
+      "published": "2026-11-04T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
     },
     {
       "title": "Your voice shapes SPFx: take our developer survey",
@@ -24,6 +32,14 @@
       "published": "2026-11-03T16:00:58+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "The Platform Behind the Next AI Breakthrough",
+      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
+      "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog .",
+      "published": "2026-11-02T20:52:22+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
     },
     {
       "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
