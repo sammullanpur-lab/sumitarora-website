@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-05T13:15:00.249106+00:00",
+  "updated_at": "2026-11-06T13:08:43.299317+00:00",
   "items": [
+    {
+      "title": "Work IQ: SharePoint Tools",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-sharepoint-mcp-tools/",
+      "summary": "Bring SharePoint into your custom apps and agents with Work IQ API New SharePoint tools are coming to the Work IQ API, bringing SharePoint content and actions to your custom apps and agents through the same workplace intelligence layer that powers Microsoft Co",
+      "published": "2026-11-06T08:30:50+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
     {
       "title": "Deprecation notice: Low-trust SharePoint add-ins in SharePoint Server Subscription Edition",
       "url": "https://devblogs.microsoft.com/microsoft365dev/deprecation-notice-low-trust-sharepoint-add-ins-in-sharepoint-server-subscription-edition/",
@@ -8,6 +16,14 @@
       "published": "2026-11-04T16:52:01+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
+      "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
+      "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The p",
+      "published": "2026-11-04T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
     },
     {
       "title": "Your voice shapes SPFx: take our developer survey",
