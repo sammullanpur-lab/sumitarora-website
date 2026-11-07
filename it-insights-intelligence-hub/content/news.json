@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T13:08:43.299317+00:00",
+  "updated_at": "2026-11-07T12:54:38.968832+00:00",
   "items": [
     {
       "title": "Work IQ: SharePoint Tools",
@@ -8,6 +8,30 @@
       "published": "2026-11-06T08:30:50+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "CVE-2026-19868: SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+      "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enfor",
+      "published": "2026-11-06T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
+      "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+      "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .",
+      "published": "2026-11-05T17:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+      "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable clou",
+      "published": "2026-11-05T16:00:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
     },
     {
       "title": "Deprecation notice: Low-trust SharePoint add-ins in SharePoint Server Subscription Edition",
