@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-07T12:54:38.968832+00:00",
+  "updated_at": "2026-11-08T12:54:51.685807+00:00",
   "items": [
+    {
+      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+      "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on ",
+      "published": "2026-11-06T19:08:44+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
     {
       "title": "Work IQ: SharePoint Tools",
       "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-sharepoint-mcp-tools/",
