@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-11-09T13:17:25.900759+00:00",
+  "updated_at": "2026-11-10T13:05:59.959448+00:00",
   "items": [
+    {
+      "title": "CVE-2026-102895: GPUStack Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+      "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution",
+      "published": "2026-11-09T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-123158: OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+      "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "published": "2026-11-09T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-116779: SignalWire FreeSwitch Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+      "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "published": "2026-11-09T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-123218: IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+      "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "published": "2026-11-09T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
     {
       "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
       "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
@@ -448,14 +480,6 @@
       "published": "2025-05-08T13:23:06+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
-    },
-    {
-      "title": "HTML injection in WebUI",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
-      "summary": "CVSSv3 Score: 4.9 An improper neutralization of script-related HTML tags in a web page in FortiManager and FortiAnalyzer may allow an attacker to perform a cross site scripting (XSS) attack via the Identify Provider name field. Revised on 2026-10-13 00:00:00",
-      "published": "2020-09-21T07:00:00+00:00",
-      "source": "Fortinet",
-      "category": "Fortinet"
     }
   ]
 }
