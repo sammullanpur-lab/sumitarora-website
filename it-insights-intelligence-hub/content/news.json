@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T13:17:14.060276+00:00",
+  "updated_at": "2026-11-13T13:12:22.199178+00:00",
   "items": [
     {
       "title": "Make business content ready for AI with M-Files – SharePoint Embedded partner spotlight",
@@ -8,6 +8,14 @@
       "published": "2026-11-11T14:00:54+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "Numeric truncation error",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-268",
+      "summary": "CVSSv3 Score: 9.6 A Numeric Truncation Error vulnerability [cwe-197] in FortiOS and FortiSASE bgp daemon may allow a configured ibgp neighbor to send malicious/malformed attributes to all connected routers via a specially crafted request Revised on 2026-11-13 ",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
     },
     {
       "title": "Allocation of resources without limits or throttling in fastapi",
@@ -472,14 +480,6 @@
       "published": "2026-10-13T13:00:52+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
-    },
-    {
-      "title": "Arbitrary file write in grpc phQueryMaster",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-      "summary": "CVSSv3 Score: 9.4 An Improper limitation of a pathname to a restricted directory ('path traversal') [CWE-22] in FortiSIEM may allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted packets. Revised on 2026-10-13 00:00:",
-      "published": "2026-10-13T07:00:00+00:00",
-      "source": "Fortinet",
-      "category": "Fortinet"
     }
   ]
 }
