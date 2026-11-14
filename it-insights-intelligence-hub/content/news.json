@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-11-13T13:12:22.199178+00:00",
+  "updated_at": "2026-11-14T12:55:53.767006+00:00",
   "items": [
+    {
+      "title": "CVE-2026-114713: UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+      "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "published": "2026-11-13T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-123039: Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+      "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root",
+      "published": "2026-11-13T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
     {
       "title": "Make business content ready for AI with M-Files – SharePoint Embedded partner spotlight",
       "url": "https://devblogs.microsoft.com/microsoft365dev/make-business-content-ready-for-ai-with-m-files-sharepoint-embedded-partner-spotlight/",
@@ -13,6 +29,14 @@
       "title": "Numeric truncation error",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-268",
       "summary": "CVSSv3 Score: 9.6 A Numeric Truncation Error vulnerability [cwe-197] in FortiOS and FortiSASE bgp daemon may allow a configured ibgp neighbor to send malicious/malformed attributes to all connected routers via a specially crafted request Revised on 2026-11-13 ",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "SSLVPN Improper Certificate Validation",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-193",
+      "summary": "CVSSv3 Score: 7.7 An improper certificate validation vulnerability [CWE-295] in FortiOS SSLVPN may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the SSLVPN web portal and the backend dest",
       "published": "2026-11-10T08:00:00+00:00",
       "source": "Fortinet",
       "category": "Fortinet"
@@ -456,30 +480,6 @@
       "published": "2026-10-14T19:00:00+00:00",
       "source": "Microsoft Azure",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Advancing hardware security with open-source Integrated HSM technology",
-      "url": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
-      "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection. The post Advancing hardware security with open-source Integrated HSM technology appeared first on Microsoft Azu",
-      "published": "2026-10-13T16:15:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
-      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-      "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact. The post Infrastructure for the frontier era: Scaling intelligence through open industry collaboration appeared",
-      "published": "2026-10-13T16:15:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Build AI-powered apps without creating a vector database",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/build-ai-powered-apps-without-creating-a-vector-database/",
-      "summary": "Developers building AI applications face a familiar challenge: how do you ground AI experiences in enterprise content while maintaining security, compliance, and governance? You can use the Microsoft 365 Copilot Retrieval API for SharePoint Embedded, which hel",
-      "published": "2026-10-13T13:00:52+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
     }
   ]
 }
