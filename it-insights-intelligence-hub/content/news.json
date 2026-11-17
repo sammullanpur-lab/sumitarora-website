@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-11-16T15:10:27.053353+00:00",
+  "updated_at": "2026-11-17T13:12:48.685360+00:00",
   "items": [
+    {
+      "title": "New Capabilities for Building Digital Teammates in Microsoft Teams",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/",
+      "summary": "Agents are becoming part of how people work together. In Microsoft Teams, developers can build agents that do more than respond to requests. They can participate in conversations, contribute to shared work and help people move from discussion to decision and a",
+      "published": "2026-11-17T10:00:34+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Microsoft 365 Developer Program updates: new sandbox options and retirement of legacy sandboxes",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/microsoft-365-developer-program-updates-new-sandbox-options-and-retirement-of-legacy-sandboxes/",
+      "summary": "The Microsoft 365 Developer Program is moving to a more flexible sandbox model with optional paid add-ons and retiring legacy subscriptions. Learn how to check whether your sandbox is affected, prepare for the transition, and continue developing through eligib",
+      "published": "2026-11-16T15:47:51+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
     {
       "title": "CVE-2026-114713: UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
@@ -24,6 +40,14 @@
       "published": "2026-11-11T14:00:54+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "Unauthenticated adjacent command execution via HA",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-273",
+      "summary": "CVSSv3 Score: 9.0 A missing authentication for critical function vulnerability [CWE-306] in FortiOS may allow an unauthenticated attacker with HA FGSP + standalone-config-sync, or autoscale to execute command as super admin via crafted HA packets. Revised on 2",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
     },
     {
       "title": "Numeric truncation error",
@@ -454,30 +478,6 @@
       "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
       "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Micr",
       "published": "2026-10-19T19:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Managing open-weight model risk in enterprise deployments",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-      "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog .",
-      "published": "2026-10-16T16:05:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Evolving the cloud-native foundation for the next generation of AI",
-      "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
-      "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale. The post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog .",
-      "published": "2026-10-15T16:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
-      "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blo",
-      "published": "2026-10-14T19:00:00+00:00",
       "source": "Microsoft Azure",
       "category": "Infrastructure"
     }
