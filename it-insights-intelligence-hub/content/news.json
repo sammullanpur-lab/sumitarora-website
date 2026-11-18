@@ -1,6 +1,70 @@
 {
-  "updated_at": "2026-11-17T13:12:48.685360+00:00",
+  "updated_at": "2026-11-18T13:19:37.624176+00:00",
   "items": [
+    {
+      "title": "SPFx Dev Skills for SPFx 1.24.1: tested across agents and models",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models/",
+      "summary": "SPFx Dev Skills v1.1.2 adds support for SPFx v1.24.1 and React 18 migration. Across 105 evaluation runs, the updated skill improved upgrade quality for every agent and model combination we tested, with 6 of 7 reaching a 100% mean score. The post SPFx Dev Skill",
+      "published": "2026-11-18T11:56:00+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Introducing the Starter Pack for Work IQ",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq/",
+      "summary": "Announcing the Starter Pack for Work IQ Anyone who has prepared a Copilot demo or who wanted to play with Copilot and Work IQ without touching real business data knows the hardest part is the lack of demo/test content in the target tenant: no emails worth summ",
+      "published": "2026-11-17T23:15:21+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
+      "summary": "Our new integrations let AI agents reason across Oracle’s business-critical data. The post Microsoft and Oracle bring agentic AI into flow of enterprise work appeared first on Microsoft Azure Blog .",
+      "published": "2026-11-17T18:35:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
+      "summary": "At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context ma",
+      "published": "2026-11-17T18:35:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+      "summary": "At Microsoft Ignite, we're sharing what's new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all o",
+      "published": "2026-11-17T18:35:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+      "summary": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads. The post Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era appeared firs",
+      "published": "2026-11-17T18:20:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Continuous improvement comes to Microsoft Foundry",
+      "url": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
+      "summary": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control. The post Continuous improvement comes to Microsoft Foundry appeared first on Microsoft Azure Blog .",
+      "published": "2026-11-17T18:15:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+      "summary": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence. The post Introducing the new Microsoft IQ: Put",
+      "published": "2026-11-17T18:05:00+00:00",
+      "source": "Microsoft Azure",
+      "category": "Infrastructure"
+    },
     {
       "title": "New Capabilities for Building Digital Teammates in Microsoft Teams",
       "url": "https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/",
@@ -8,6 +72,14 @@
       "published": "2026-11-17T10:00:34+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "CVE-2026-115731: Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+      "summary": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting ",
+      "published": "2026-11-17T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
     },
     {
       "title": "Microsoft 365 Developer Program updates: new sandbox options and retirement of legacy sandboxes",
@@ -408,78 +480,6 @@
       "published": "2026-10-28T00:00:00+00:00",
       "source": "CISA KEV",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
-      "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or se",
-      "published": "2026-10-27T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-      "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a ",
-      "published": "2026-10-27T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
-      "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-      "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
-      "published": "2026-10-26T16:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Node2Shell CVEs",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-",
-      "published": "2026-10-26T07:00:00+00:00",
-      "source": "Fortinet",
-      "category": "Fortinet"
-    },
-    {
-      "title": "Develop enterprise-grade apps with SharePoint Embedded",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/develop-enterprise-grade-apps-with-sharepoint-embedded/",
-      "summary": "Taking an enterprise application from development to production requires confidence that it can scale, stay reliable, and be governed effectively. Recent SharePoint Embedded updates give developers clearer guidance for making those decisions, from understandin",
-      "published": "2026-10-22T12:30:44+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "PHP2Shell core RCE vulnerability patches (CVE-2026-109618 and CVE-2026-109619)",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-186",
-      "summary": "CVSSv3 Score: 5.3 CVE-2026-109618PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before",
-      "published": "2026-10-21T07:00:00+00:00",
-      "source": "Fortinet",
-      "category": "Fortinet"
-    },
-    {
-      "title": "Advancing digital sovereignty with greater control and choice",
-      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
-      "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require. The pos",
-      "published": "2026-10-20T17:34:47+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Work IQ: the new retrieve tool",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-retrieve-october-2026/",
-      "summary": "The new Work IQ Retrieve tool grounds agents in the context of work, helping them reason over the right information and deliver more relevant, trustworthy responses. With one retrieval layer across work sources, developers can give agents richer organizational",
-      "published": "2026-10-20T07:00:57+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-      "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Micr",
-      "published": "2026-10-19T19:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
     }
   ]
 }
