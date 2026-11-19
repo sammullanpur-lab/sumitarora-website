@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-18T13:19:37.624176+00:00",
+  "updated_at": "2026-11-19T13:22:33.022275+00:00",
   "items": [
+    {
+      "title": "Frontier Tuning opens to more customers, with new tools for your teams",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams/",
+      "summary": "Frontier Tuning is expanding its private preview, giving makers, developers, and subject-matter experts new tools to tune AI for specialized work using their organization’s own expertise and standards. See what’s new, how EY is putting Frontier Tuning to work,",
+      "published": "2026-11-18T16:00:06+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
     {
       "title": "SPFx Dev Skills for SPFx 1.24.1: tested across agents and models",
       "url": "https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models/",
@@ -8,6 +16,46 @@
       "published": "2026-11-18T11:56:00+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "Java4Shell Vulnerability - CVE-2026-114938",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-114938Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3",
+      "published": "2026-11-18T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "CVE-2024-10441: Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+      "summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "published": "2026-11-18T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-40217: BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+      "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "published": "2026-11-18T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+      "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access ",
+      "published": "2026-11-18T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-90436: Apache Axis Unsafe Reflection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+      "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is",
+      "published": "2026-11-18T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
     },
     {
       "title": "Introducing the Starter Pack for Work IQ",
@@ -430,54 +478,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
       "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, ",
       "published": "2026-10-29T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-      "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial",
-      "published": "2026-10-29T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
-      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-      "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog .",
-      "published": "2026-10-28T17:40:56+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Streamline creation and management of AI-ready, custom apps with SharePoint Embedded",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/streamline-creation-and-management-of-ai-ready-custom-apps-with-sharepoint-embedded/",
-      "summary": "SharePoint content isn’t limited to sites and document libraries. Increasingly, organizations are bringing Microsoft 365 content capabilities directly into the custom apps their users rely on. That’s where SharePoint Embedded comes in. SharePoint Embedded is a",
-      "published": "2026-10-28T13:09:27+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "Copilot UX components are generally available: bring interactive experiences into Copilot",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-are-generally-available-bring-interactive-experiences-into-copilot/",
-      "summary": "Copilot UX components are generally available with SPFx 1.24. Bring interactive dashboards, forms, and business actions directly into Microsoft Copilot, so people can complete tasks in context using experiences built on existing web skills and systems. The pos",
-      "published": "2026-10-28T10:55:44+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "CVE-2026-41709: Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-      "published": "2026-10-28T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "CVE-2026-46300: Linux Kernel Missing Initialization of a Variable Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
-      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing t",
-      "published": "2026-10-28T00:00:00+00:00",
       "source": "CISA KEV",
       "category": "Cybersecurity"
     }
