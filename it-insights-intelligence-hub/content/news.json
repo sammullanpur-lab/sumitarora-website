@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-11-20T13:17:16.994924+00:00",
+  "updated_at": "2026-11-21T13:00:08.566879+00:00",
   "items": [
+    {
+      "title": "NGINX vulnerabilities",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6.CVE-2026-121810 (high)This vulnerability ",
+      "published": "2026-11-20T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "CVE-2026-129448: Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+      "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE co",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-123890: VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized acc",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2025-42884: SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+      "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used du",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-76466: Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+      "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "published": "2026-11-20T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
     {
       "title": "Frontier Tuning opens to more customers, with new tools for your teams",
       "url": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams/",
@@ -440,46 +480,6 @@
       "published": "2026-11-02T20:52:22+00:00",
       "source": "Microsoft Azure",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Linux kernel RCE CVE-2026-98432",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-188",
-      "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransm",
-      "published": "2026-11-02T08:00:00+00:00",
-      "source": "Fortinet",
-      "category": "Fortinet"
-    },
-    {
-      "title": "CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-      "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE",
-      "published": "2026-10-30T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "CVE-2026-111357: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
-      "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "published": "2026-10-30T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
-      "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeare",
-      "published": "2026-10-29T16:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-      "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, ",
-      "published": "2026-10-29T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
     }
   ]
 }
