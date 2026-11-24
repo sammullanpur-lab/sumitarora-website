@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-23T13:25:21.764017+00:00",
+  "updated_at": "2026-11-24T13:22:40.655379+00:00",
   "items": [
+    {
+      "title": "Copilot UX components now available in Cowork with plugins – SPFx roadmap update for November 2026",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026/",
+      "summary": "Copilot UX components are now supported and available in Copilot Cowork as plugins, governed centrally with the admin tools you already use. Plus a first look at single page apps in SharePoint, a new UX model planned for preview in SPFx 1.25. As always, the ro",
+      "published": "2026-11-24T11:21:11+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "CVE-2026-133968: Project MONAI MONAI Label Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+      "summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "published": "2026-11-23T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-134624: N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+      "summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send cr",
+      "published": "2026-11-23T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
     {
       "title": "NGINX vulnerabilities",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
@@ -456,30 +480,6 @@
       "published": "2026-11-04T00:00:00+00:00",
       "source": "CISA KEV",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Your app needs documents. Do you really want to build a document platform?",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/your-app-needs-documents-do-you-really-want-to-build-a-document-platform/",
-      "summary": "File storage is rarely just file storage. Imagine your team is building a contract management application. At first, the document requirement looks straightforward: upload a file, organize it, retrieve it, and let the right people open it. Then the real requir",
-      "published": "2026-11-03T16:00:58+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
-      "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths use",
-      "published": "2026-11-03T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "The Platform Behind the Next AI Breakthrough",
-      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-      "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog .",
-      "published": "2026-11-02T20:52:22+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
     }
   ]
 }
