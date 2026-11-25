@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-11-24T13:22:40.655379+00:00",
+  "updated_at": "2026-11-25T13:28:02.984486+00:00",
   "items": [
+    {
+      "title": "Action required: Update app-only permissions for SharePoint tenant App Catalog writes",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes/",
+      "summary": "We are introducing an additional authorization requirement for applications that use app-only authentication to write directly to specific surfaces in the SharePoint tenant App Catalog. Starting January 31, 2027, affected app-only workflows must have the Share",
+      "published": "2026-11-25T09:01:55+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
+    {
+      "title": "Choose the right document platform for your app: SharePoint Embedded",
+      "url": "https://devblogs.microsoft.com/microsoft365dev/choose-the-right-document-platform-for-your-app-sharepoint-embedded/",
+      "summary": "Choosing a document platform is an architectural decision—not simply a storage decision. SharePoint Embedded is designed for applications that need Microsoft 365-grade file and document capabilities while keeping the user experience, business logic, and naviga",
+      "published": "2026-11-24T14:00:41+00:00",
+      "source": "Microsoft",
+      "category": "Microsoft"
+    },
     {
       "title": "Copilot UX components now available in Cowork with plugins – SPFx roadmap update for November 2026",
       "url": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026/",
@@ -8,6 +24,30 @@
       "published": "2026-11-24T11:21:11+00:00",
       "source": "Microsoft",
       "category": "Microsoft"
+    },
+    {
+      "title": "CVE-2026-132224: Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+      "summary": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in",
+      "published": "2026-11-24T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-131914: Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+      "summary": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are ",
+      "published": "2026-11-24T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CVE-2026-132165: Drupal Core Remote Code Execution Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+      "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to r",
+      "published": "2026-11-24T00:00:00+00:00",
+      "source": "CISA KEV",
+      "category": "Cybersecurity"
     },
     {
       "title": "CVE-2026-133968: Project MONAI MONAI Label Path Traversal Vulnerability",
@@ -226,6 +266,38 @@
       "category": "Microsoft"
     },
     {
+      "title": "Improper certificate validation in RADIUS protocol",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-247",
+      "summary": "CVSSv3 Score: 7.5 An Improper Certificate Validation vulnerability [CWE-295] in FortiSASE Sovereign, FortiManager, Fortianalyzer, FortiManager Cloud and FortiAnalyzer Cloud RADIUS protocol may allow a MITM attacker to impersonate the radius server via a rogue ",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "Improper neutralization of special elements used in a template engine i",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-225",
+      "summary": "CVSSv3 Score: 8.4 An Improper Neutralization of Special Elements Used in a Template Engine vulnerability [CWE-1336] in FortiManager and FortiManager Cloud may allow a low privileged Device Manager admin to obtain super admin privilege on managed FortiGates via",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "Improper neutralization of special elements used in an OS command",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-246",
+      "summary": "CVSSv3 Score: 7.2 An improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability (CWE-78) in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager, FortiManager Cloud system-ha plugin may allow an authenticated attacker ",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
+      "title": "Improper neutralization of special elements used in an SQL command",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-221",
+      "summary": "CVSSv3 Score: 8.8 An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud may allow an authenticated attacker to execute unauthori",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": "Fortinet",
+      "category": "Fortinet"
+    },
+    {
       "title": "Unauthenticated adjacent command execution via HA",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-273",
       "summary": "CVSSv3 Score: 9.0 A missing authentication for critical function vulnerability [CWE-306] in FortiOS may allow an unauthenticated attacker with HA FGSP + standalone-config-sync, or autoscale to execute command as super admin via crafted HA packets. Revised on 2",
@@ -406,78 +478,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
       "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
       "published": "2026-11-09T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
-      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
-      "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on ",
-      "published": "2026-11-06T19:08:44+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Work IQ: SharePoint Tools",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-sharepoint-mcp-tools/",
-      "summary": "Bring SharePoint into your custom apps and agents with Work IQ API New SharePoint tools are coming to the Work IQ API, bringing SharePoint content and actions to your custom apps and agents through the same workplace intelligence layer that powers Microsoft Co",
-      "published": "2026-11-06T08:30:50+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "CVE-2026-19868: SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
-      "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enfor",
-      "published": "2026-11-06T00:00:00+00:00",
-      "source": "CISA KEV",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
-      "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
-      "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .",
-      "published": "2026-11-05T17:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-      "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable clou",
-      "published": "2026-11-05T16:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Deprecation notice: Low-trust SharePoint add-ins in SharePoint Server Subscription Edition",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/deprecation-notice-low-trust-sharepoint-add-ins-in-sharepoint-server-subscription-edition/",
-      "summary": "Support for low-trust SharePoint Add-ins in SharePoint Server Subscription Edition ends on January 12, 2027. The January 2027 public update will disable these add-ins by default. Organizations should identify affected solutions and plan their migration to supp",
-      "published": "2026-11-04T16:52:01+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
-      "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
-      "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The p",
-      "published": "2026-11-04T16:00:00+00:00",
-      "source": "Microsoft Azure",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Your voice shapes SPFx: take our developer survey",
-      "url": "https://devblogs.microsoft.com/microsoft365dev/your-voice-shapes-spfx-take-our-developer-survey/",
-      "summary": "Help shape the future of SPFx. Share your developer experience in our survey, open until December 9, 2026, and help guide future investments. Explore highlights from a year of updates, including Copilot UX components, and discover what’s next on the roadmap an",
-      "published": "2026-11-04T10:10:37+00:00",
-      "source": "Microsoft",
-      "category": "Microsoft"
-    },
-    {
-      "title": "CVE-2024-27834: Apple Multiple Products Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
-      "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-      "published": "2026-11-04T00:00:00+00:00",
       "source": "CISA KEV",
       "category": "Cybersecurity"
     }
